@@ -1,0 +1,11 @@
+>>> from apps.bookAuthor_app.models import *
+>>> Book.objects.create(name = "Csharp")
+<Book: Book object>
+>>> Book.objects.create(name = "Java")
+<Book: Book object>
+>>> Book.objects.create(name = "Python")
+<Book: Book object>
+>>> Book.objects.create(name = "PHP")
+<Book: Book object>
+>>> Book.objects.create(name = "Ruby")
+<Book: Book object>
